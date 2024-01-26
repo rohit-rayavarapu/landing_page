@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+header{
+    background-color: #4F6F52;
+    color: #fff;
+}
+
+
+header nav{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav .logo{
+    /* margin-left: auto; */
+    text-align: center;
+    width: 30%;
+}
+
+header nav .links{
+    text-align: end;
+    /* margin-right: auto; */
+    width: 70%;
+}
+
+header nav a{
+    font-size: 20px;
+text-decoration: none;
+color: #fff;
+margin: 0px 20px;
+}
+
+header nav div{
+margin: 0px 20px;
+}
+
+
+.title{
+    padding: 50px;
+    display: flex;
+    margin: 0 90px;
+    /* width: 50%; */
+    justify-content: flex-end;
+}
+
+.description{
+flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.image{
+    justify-content: flex-start;
+}
+
+
+.title div button{
+    margin: 20px;
+    background-color: #18a6ff;
+    
+}
+
+
+.title div button:hover{
+    cursor: pointer;
+    background-color:blue ;
+    border: 0px;
+}
+
+.title div h1,p,button{
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.section1{
+    padding: 50px 5px;
+}
+
+
+
+
+.section1 div{
+    text-align: center;
+}
+
+.section1 .icons{
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+
+.info{
+    padding: 20px;
+    font-size: 30px;
+}
+
+.section2{
+    background-color: #86A789;
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+   
+}
+
+.section2 p{
+    padding: 50px 100px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+
+.section3{
+    margin: 50px;
+    border-radius: 10px;
+    background-color: #02ceed;
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    color: #fff;
+}
+
+
+.section3 div p{
+    text-align: start;
+    justify-content: space-around;
+}
+
+.section3 div button{
+    margin-top: 40px;
+    background-color: #02ceed;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+footer{
+    background-color: #4F6F52;
+    text-align: center;
+    padding: 10px;
+height: 50px;
+width: 100%;
+position: static;
+}
+
+footer p{
+    margin-top: 10px;
+    color: white;
+}
